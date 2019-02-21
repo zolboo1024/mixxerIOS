@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		789AAA68221C57680078693F /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789AAA67221C57680078693F /* CheckInternet.swift */; };
 		78CA7CE8221B59F70006165F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA7CE7221B59F70006165F /* AppDelegate.swift */; };
 		78CA7CEA221B59F70006165F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA7CE9221B59F70006165F /* ViewController.swift */; };
 		78CA7CED221B59F70006165F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CA7CEB221B59F70006165F /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		78CA7CF2221B5A020006165F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CA7CF0221B5A020006165F /* LaunchScreen.storyboard */; };
 		78CA7CFD221B5A020006165F /* mixxerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA7CFC221B5A020006165F /* mixxerTests.swift */; };
 		78CA7D08221B5A020006165F /* mixxerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA7D07221B5A020006165F /* mixxerUITests.swift */; };
+		78CA7D1A221B5C750006165F /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA7D19221B5C750006165F /* URL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		789AAA67221C57680078693F /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
 		78CA7CE4221B59F70006165F /* mixxer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mixxer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CA7CE7221B59F70006165F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78CA7CE9221B59F70006165F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		78CA7D03221B5A020006165F /* mixxerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mixxerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CA7D07221B5A020006165F /* mixxerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixxerUITests.swift; sourceTree = "<group>"; };
 		78CA7D09221B5A020006165F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78CA7D19221B5C750006165F /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		78CA7CDB221B59F70006165F = {
 			isa = PBXGroup;
 			children = (
+				789AAA67221C57680078693F /* CheckInternet.swift */,
 				78CA7CE6221B59F70006165F /* mixxer */,
 				78CA7CFB221B5A020006165F /* mixxerTests */,
 				78CA7D06221B5A020006165F /* mixxerUITests */,
@@ -103,6 +108,7 @@
 				78CA7CEE221B5A020006165F /* Assets.xcassets */,
 				78CA7CF0221B5A020006165F /* LaunchScreen.storyboard */,
 				78CA7CF3221B5A020006165F /* Info.plist */,
+				78CA7D19221B5C750006165F /* URL.swift */,
 			);
 			path = mixxer;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				78CA7CEA221B59F70006165F /* ViewController.swift in Sources */,
+				789AAA68221C57680078693F /* CheckInternet.swift in Sources */,
 				78CA7CE8221B59F70006165F /* AppDelegate.swift in Sources */,
+				78CA7D1A221B5C750006165F /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
