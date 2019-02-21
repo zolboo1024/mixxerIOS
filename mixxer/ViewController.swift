@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         if(CheckInternet.Connection()){
             //self.performSegue(withIdentifier: "loginSegue", sender: self)
             showWebsite(url: "https://www.language-exchanges.org/user/login")
-
+//some random changes
         }
         else {
             self.Alert(Message: "Please connect your device to the Internet")
