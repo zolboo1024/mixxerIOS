@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1883994D97E813C6C95AE4D6 /* Pods_mixxerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FF7147F3DD1F7EF55877C6 /* Pods_mixxerTests.framework */; };
+		332D03324CC0ECF2D97F5C07 /* Pods_mixxer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B75F12B58EE17F4B07CCEB /* Pods_mixxer.framework */; };
 		789AAA68221C57680078693F /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789AAA67221C57680078693F /* CheckInternet.swift */; };
+		78AA00942243D44500955746 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78AA00932243D44500955746 /* GoogleService-Info.plist */; };
 		78CA7CE8221B59F70006165F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA7CE7221B59F70006165F /* AppDelegate.swift */; };
 		78CA7CEA221B59F70006165F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA7CE9221B59F70006165F /* ViewController.swift */; };
 		78CA7CED221B59F70006165F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CA7CEB221B59F70006165F /* Main.storyboard */; };
@@ -16,6 +19,7 @@
 		78CA7CFD221B5A020006165F /* mixxerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA7CFC221B5A020006165F /* mixxerTests.swift */; };
 		78CA7D08221B5A020006165F /* mixxerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA7D07221B5A020006165F /* mixxerUITests.swift */; };
 		78CA7D1A221B5C750006165F /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA7D19221B5C750006165F /* URL.swift */; };
+		C1CD41240DD8B1F68B76B2F0 /* Pods_mixxerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F33EA04FF78120822769642 /* Pods_mixxerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02FF7147F3DD1F7EF55877C6 /* Pods_mixxerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mixxerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B75F12B58EE17F4B07CCEB /* Pods_mixxer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mixxer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F33EA04FF78120822769642 /* Pods_mixxerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mixxerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44530E2093E4CA1B466F552C /* Pods-mixxerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mixxerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mixxerUITests/Pods-mixxerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D2FD91036846A2859FA2DC2 /* Pods-mixxer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mixxer.release.xcconfig"; path = "Pods/Target Support Files/Pods-mixxer/Pods-mixxer.release.xcconfig"; sourceTree = "<group>"; };
+		575C5330DA7C211C6BE3BD22 /* Pods-mixxerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mixxerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mixxerTests/Pods-mixxerTests.release.xcconfig"; sourceTree = "<group>"; };
+		78140C9F224A811D0054CF53 /* mixxer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mixxer.entitlements; sourceTree = "<group>"; };
 		789AAA67221C57680078693F /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		78AA00932243D44500955746 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78CA7CE4221B59F70006165F /* mixxer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mixxer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CA7CE7221B59F70006165F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78CA7CE9221B59F70006165F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +63,9 @@
 		78CA7D07221B5A020006165F /* mixxerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixxerUITests.swift; sourceTree = "<group>"; };
 		78CA7D09221B5A020006165F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78CA7D19221B5C750006165F /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		851E53871B1C7ADFB43BD81B /* Pods-mixxer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mixxer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mixxer/Pods-mixxer.debug.xcconfig"; sourceTree = "<group>"; };
+		8C0070212BC9F5E55943469F /* Pods-mixxerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mixxerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mixxerTests/Pods-mixxerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91F008B31C0D1929B792BCA6 /* Pods-mixxerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mixxerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mixxerUITests/Pods-mixxerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332D03324CC0ECF2D97F5C07 /* Pods_mixxer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1883994D97E813C6C95AE4D6 /* Pods_mixxerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CD41240DD8B1F68B76B2F0 /* Pods_mixxerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2978874AD58B443FC36F10A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				851E53871B1C7ADFB43BD81B /* Pods-mixxer.debug.xcconfig */,
+				4D2FD91036846A2859FA2DC2 /* Pods-mixxer.release.xcconfig */,
+				8C0070212BC9F5E55943469F /* Pods-mixxerTests.debug.xcconfig */,
+				575C5330DA7C211C6BE3BD22 /* Pods-mixxerTests.release.xcconfig */,
+				44530E2093E4CA1B466F552C /* Pods-mixxerUITests.debug.xcconfig */,
+				91F008B31C0D1929B792BCA6 /* Pods-mixxerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		78CA7CDB221B59F70006165F = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +117,8 @@
 				78CA7CFB221B5A020006165F /* mixxerTests */,
 				78CA7D06221B5A020006165F /* mixxerUITests */,
 				78CA7CE5221B59F70006165F /* Products */,
+				2978874AD58B443FC36F10A8 /* Pods */,
+				7E938FD07789172DB9E76365 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +135,8 @@
 		78CA7CE6221B59F70006165F /* mixxer */ = {
 			isa = PBXGroup;
 			children = (
+				78140C9F224A811D0054CF53 /* mixxer.entitlements */,
+				78AA00932243D44500955746 /* GoogleService-Info.plist */,
 				78CA7CE7221B59F70006165F /* AppDelegate.swift */,
 				78CA7CE9221B59F70006165F /* ViewController.swift */,
 				78CA7CEB221B59F70006165F /* Main.storyboard */,
@@ -131,6 +166,16 @@
 			path = mixxerUITests;
 			sourceTree = "<group>";
 		};
+		7E938FD07789172DB9E76365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B75F12B58EE17F4B07CCEB /* Pods_mixxer.framework */,
+				02FF7147F3DD1F7EF55877C6 /* Pods_mixxerTests.framework */,
+				1F33EA04FF78120822769642 /* Pods_mixxerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78CA7D0C221B5A020006165F /* Build configuration list for PBXNativeTarget "mixxer" */;
 			buildPhases = (
+				472C055BDA779C828E11468D /* [CP] Check Pods Manifest.lock */,
 				78CA7CE0221B59F70006165F /* Sources */,
 				78CA7CE1221B59F70006165F /* Frameworks */,
 				78CA7CE2221B59F70006165F /* Resources */,
+				5CDD4EF25EAB59B1C5B5FCC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78CA7D0F221B5A020006165F /* Build configuration list for PBXNativeTarget "mixxerTests" */;
 			buildPhases = (
+				7FFA95634E445F9E298B8E88 /* [CP] Check Pods Manifest.lock */,
 				78CA7CF4221B5A020006165F /* Sources */,
 				78CA7CF5221B5A020006165F /* Frameworks */,
 				78CA7CF6221B5A020006165F /* Resources */,
@@ -173,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78CA7D12221B5A020006165F /* Build configuration list for PBXNativeTarget "mixxerUITests" */;
 			buildPhases = (
+				7354C93624D967EC029D8BA1 /* [CP] Check Pods Manifest.lock */,
 				78CA7CFF221B5A020006165F /* Sources */,
 				78CA7D00221B5A020006165F /* Frameworks */,
 				78CA7D01221B5A020006165F /* Resources */,
@@ -199,6 +248,14 @@
 				TargetAttributes = {
 					78CA7CE3221B59F70006165F = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					78CA7CF7221B5A020006165F = {
 						CreatedOnToolsVersion = 10.1;
@@ -236,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78CA7CF2221B5A020006165F /* LaunchScreen.storyboard in Resources */,
+				78AA00942243D44500955746 /* GoogleService-Info.plist in Resources */,
 				78CA7CEF221B5A020006165F /* Assets.xcassets in Resources */,
 				78CA7CED221B59F70006165F /* Main.storyboard in Resources */,
 			);
@@ -256,6 +314,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		472C055BDA779C828E11468D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mixxer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CDD4EF25EAB59B1C5B5FCC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mixxer/Pods-mixxer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mixxer/Pods-mixxer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7354C93624D967EC029D8BA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mixxerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FFA95634E445F9E298B8E88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mixxerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		78CA7CE0221B59F70006165F /* Sources */ = {
@@ -438,11 +575,14 @@
 		};
 		78CA7D0D221B5A020006165F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851E53871B1C7ADFB43BD81B /* Pods-mixxer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mixxer/mixxer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXY9U6A8CH;
 				INFOPLIST_FILE = mixxer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,11 +596,14 @@
 		};
 		78CA7D0E221B5A020006165F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2FD91036846A2859FA2DC2 /* Pods-mixxer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mixxer/mixxer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXY9U6A8CH;
 				INFOPLIST_FILE = mixxer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,6 +617,7 @@
 		};
 		78CA7D10221B5A020006165F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0070212BC9F5E55943469F /* Pods-mixxerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +639,7 @@
 		};
 		78CA7D11221B5A020006165F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575C5330DA7C211C6BE3BD22 /* Pods-mixxerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +661,7 @@
 		};
 		78CA7D13221B5A020006165F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44530E2093E4CA1B466F552C /* Pods-mixxerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +682,7 @@
 		};
 		78CA7D14221B5A020006165F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F008B31C0D1929B792BCA6 /* Pods-mixxerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

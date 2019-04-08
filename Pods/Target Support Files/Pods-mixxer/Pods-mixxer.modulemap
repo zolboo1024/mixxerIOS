@@ -1,0 +1,6 @@
+framework module Pods_mixxer {
+  umbrella header "Pods-mixxer-umbrella.h"
+
+  export *
+  module * { export * }
+}

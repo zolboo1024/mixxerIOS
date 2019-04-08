@@ -7,10 +7,10 @@
 //
 
 import UIKit
-import WebKit
+//import WebKit
 class URLViewController: UIViewController {
     
-    @IBOutlet weak var web: WKWebView!
+    //@IBOutlet weak var web: WKWebView!
     var passedURL = "https://www.google.com"
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,6 @@ class URLViewController: UIViewController {
     func loadURL(urlString: String){
         let url = URL(string: urlString)
         let URLrequest = URLRequest(url: url!)
-        self.web.load(URLrequest)
+        //self.web.load(URLrequest)
     }
 }

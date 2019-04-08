@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     @IBAction func loginClicked(_ sender: Any) {
         if(CheckInternet.Connection()){
-            //self.performSegue(withIdentifier: "loginSegue", sender: self)
+            self.performSegue(withIdentifier: "loginSegue", sender: self)
             showWebsite(url: "https://www.language-exchanges.org/user/login")
 //some random changes
         }
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     @IBAction func signUpClicked(_ sender: Any) {
         if(CheckInternet.Connection()){
-            //self.performSegue(withIdentifier: "signupSegue", sender: self)
+            self.performSegue(withIdentifier: "signupSegue", sender: self)
             showWebsite(url: "https://www.language-exchanges.org/user/register")
         }
         else {
